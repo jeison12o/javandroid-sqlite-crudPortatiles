@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="421dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRegistrarSistemaOperativo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="vistaRegistrarSistemaOperativo"
+            android:text="Registrar sistema operativo" />
+
+        <Button
+            android:id="@+id/btnRegistrarMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:onClick="vistaRegistrarMarca"
+            android:text="Registrar marca" />
+
+        <Button
+            android:id="@+id/btnGestionPortatil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:onClick="vistaGestionPortatil"
+            android:text="gestion portatil" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblTotalProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total valor portatiles: $"
+        android:textSize="25sp" />
+
+</LinearLayout>
